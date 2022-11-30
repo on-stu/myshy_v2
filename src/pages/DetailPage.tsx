@@ -65,6 +65,7 @@ const DetailPage = () => {
               ? window.innerWidth * 0.75
               : window.innerWidth * 0.5
           }
+          playsInline
         >
           <source src={song?.url} type="video/mp4" />
         </video>
